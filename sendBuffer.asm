@@ -8,6 +8,7 @@ sendBufferAsm:
     mov r0, r4
     bl BufferMethods::length
     mov r5, r0
+    
     mov r0, r4
     bl BufferMethods::getBytes
     mov r4, r0
